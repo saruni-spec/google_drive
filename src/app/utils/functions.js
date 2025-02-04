@@ -2,9 +2,10 @@
 import { google } from "googleapis";
 
 // Your OAuth2 credentials
-const REFRESH_TOKEN = "";
-const CLIENT_ID = "";
-const CLIENT_SECRET = "";
+const REFRESH_TOKEN =
+  "1//04iAbqGfynY1HCgYIARAAGAQSNwF-L9IrWqiyVbPvKAtmrgG9jUFgC2eJ0fgl8HkicnjVgmS0VvOah1Vb6B6PqNOl1wz3YeCrNEY";
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const REDIRECT_URL = "https://developers.google.com/oauthplayground";
 
 // Create an OAuth2 client using the credentials
